@@ -1,19 +1,13 @@
 /**
  * チャートログ 設定ファイル
  * ------------------------------------------------------------------
- * このファイルが「環境変数」の代わりです（ビルド不要の静的アプリのため）。
- * Supabase の Project Settings → API から次の2つをコピーして貼り付けてください。
+ * Supabase の Project Settings → API から取得した接続情報です。
+ * ビルド不要の静的アプリのため、環境変数の代わりにこのファイルを使います。
  *
- *   SUPABASE_URL      : Project URL       例) https://abcdefghijklmnop.supabase.co
- *   SUPABASE_ANON_KEY : anon public key   例) eyJhbGciOiJIUzI1NiIs...
- *
- * ・anon key はブラウザに公開される前提のキーです（RLS で保護します）。
- * ・service_role key は絶対にここに書かないでください。
- * ・空のままでも「ローカル保存モード」で動作します（この端末だけ）。
- *
- * 設定後はページを再読み込みしてください。詳しい手順は README.md を参照。
+ * ・ここに書くのは anon / publishable key（ブラウザに公開される前提）だけです。
+ * ・service_role key / secret key は絶対に書かないでください。
  */
 window.APP_CONFIG = {
-  SUPABASE_URL: "",
-  SUPABASE_ANON_KEY: "",
+  SUPABASE_URL: "https://zupyuzokhhgquqrecyxn.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_CGM_26nxRGlfRAXX9bAxog_j_ULTUOe",
 };
