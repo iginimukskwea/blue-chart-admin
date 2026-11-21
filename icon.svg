@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3C6FE4"/>
+      <stop offset="0.55" stop-color="#2456C7"/>
+      <stop offset="1" stop-color="#173C93"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="116" fill="url(#sheen)"/>
+  <g opacity="0.14" stroke="#FFFFFF" stroke-width="2">
+    <path d="M64 160h384M64 256h384M64 352h384"/>
+    <path d="M160 64v384M256 64v384M352 64v384"/>
+  </g>
+  <text x="250" y="356" text-anchor="middle" font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif" font-size="268" font-weight="900" fill="#FFFFFF">チ</text>
+  <circle cx="392" cy="120" r="36" fill="#C9F16B"/>
+  <circle cx="392" cy="120" r="17" fill="#2456C7"/>
+</svg>
